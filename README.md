@@ -1,12 +1,9 @@
-# Development comments
+# Development notes
 
 
 Private Authme-Engine plugin (Spigot)
-
 Version: 1.20.4
-
 Java: 17
-
 Kotlin: Maven
 
 
