@@ -11,6 +11,8 @@
     - /autorizace       - To accept the rules
     - /edit command     - For editing the map
 
+    - Authorization GUI
+
     - Disable place
     - Disable destruction
     - Disable movement
@@ -22,5 +24,3 @@
     - Autologin (For IP address)
 
     - Config
-
-
