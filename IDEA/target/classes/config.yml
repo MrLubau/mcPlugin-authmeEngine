@@ -1,0 +1,81 @@
+# ==========================================================================
+#
+#                             PLUGIN BASICS
+#
+# ==========================================================================
+
+# Server name
+server: "Hype-Play.cz"
+
+# Display plugin name
+plugin: "Authme"
+
+# Display version
+engine: "Authme-Beta 1.0"
+
+# Display license
+license: "example.name.eu:00000"
+
+# Display prefix
+prefix: "§f使 §x§3§b§3§b§3§b» §x§c§3§c§3§c§3"
+
+# Primary color
+pcolor: "§x§c§3§c§3§c§3"
+
+# Secondary color
+scolor: "§x§0§0§e§e§2§0"
+
+# Third color
+tcolor: "§x§5§d§5§d§5§d"
+
+# Display error message
+error: "Tento command neexistuje"
+
+
+
+# ==========================================================================
+#
+#                             AUTH & SPAWN
+#
+# ==========================================================================
+# Password hashed in BCrypt - Salt 10
+
+# Enable login
+login: true # Neni hotovo
+
+# Enable register
+register: true # Neni hotovo
+
+# Spawn at spawn after join
+joinspawn: true
+
+# Write a message after join
+joinmessage: true
+
+# Be invisible for other peoples
+invisible: true
+
+# Spawn after join
+spawn:
+  world: world
+  x: 0
+  y: 0
+  z: 0
+  yaw: 0.0
+  pitch: 0.0
+
+
+
+# ==========================================================================
+#
+#                             DATABASE
+#
+# ==========================================================================
+
+# MYSQL DATABASE
+
+database:
+  host: "localhost:3306"
+  username: "root"
+  database: "main"
+  password: ""
